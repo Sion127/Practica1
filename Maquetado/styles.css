@@ -99,8 +99,8 @@ body{
 }
 
 .div__Footer--purple{
-    width: 1010px;
-    height: 100px;
+    width: 100vw;
+    height: 300px;
     background-color: violet;
     color: whitesmoke;
     border-radius: 20px;
@@ -116,13 +116,22 @@ body{
 
     .div__aside1--orange{
         display: none;
-        margin-left: 0px;
-        margin-right: 0px;
+    }
+
+    .div__Footer--purple{
+        width:auto;
     }
 
     .div__header--limegreen{
         width: auto;
-        margin-left: 0px;
-        margin-right:0px;
+    }
+
+    .main__container--red{
+        width: 100vw;
+        margin-left: 1px;
+    }
+
+    .article_container1--white{
+        width: auto;
     }
 }
