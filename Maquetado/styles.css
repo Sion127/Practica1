@@ -97,3 +97,32 @@ body{
     justify-content: flex-start;
     align-items: center;
 }
+
+.div__Footer--purple{
+    width: 1010px;
+    height: 100px;
+    background-color: violet;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 600px){
+    .div__aside2--orange{
+        display: none;
+    }
+
+    .div__aside1--orange{
+        display: none;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .div__header--limegreen{
+        width: auto;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+}
